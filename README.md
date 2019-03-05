@@ -1,5 +1,7 @@
 # Croc Winter Java School 19
 
 - **Задача 1:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-1), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-1)
-- **Задача 1\*:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-1X), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-1X)
+- **Задача 1\*:**
+  - _Версия 1_ (добавление гласных в дек): [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-1X), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-1X)
+  - _Версия 2_ (поиск гласных слева и справа): [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-1X-V2), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-1X-V2)
 
