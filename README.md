@@ -6,4 +6,5 @@
   - _Версия 2_ (поиск гласных слева и справа): [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-1X-V2), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-1X-V2)
 - **Задача 2:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-2), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-2)
 - **Задача 2\*:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-2X), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-2X)
+- **Задача 3:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-3), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-3)
 
