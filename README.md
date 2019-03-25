@@ -8,4 +8,5 @@
 - **Задача 2\*:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-2X), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-2X)
 - **Задача 3:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-3), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-3)
 - **Задача 3\*:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-3X), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-3X)
+- **Задача 4:** [GitHub](https://github.com/Khazbs/WinterJava/tree/master/Task-4), [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-4)
 
