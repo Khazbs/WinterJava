@@ -9,16 +9,17 @@ public class Main {
             System.out.println("No argument passed to the program");
             return;
         }
-        Reader fileReader= new FileReader(filename);
         int c, wordCount = 0;
         boolean isInWord = false;
-        while ((c = fileReader.read()) != -1) {
-            if (Character.isWhitespace(c))
-                isInWord = false;
-            else {
-                if (!isInWord)
-                    ++wordCount;
-                isInWord = true;
+        try (Reader fileReader = new FileReader(filename)) {
+            while ((c = fileReader.read()) != -1) {
+                if (Character.isWhitespace(c))
+                    isInWord = false;
+                else {
+                    if (!isInWord)
+                        ++wordCount;
+                    isInWord = true;
+                }
             }
         }
         System.out.println(wordCount);
