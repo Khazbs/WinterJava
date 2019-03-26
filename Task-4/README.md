@@ -1,14 +1,33 @@
 # Задача 4
 [Repl.It](https://repl.it/@ArthurKhazbs/WinterJavaTask-4)
 
-В текстовом файле слова могут быть разделены одним или несколькими пробелами или символами перевода строки. Необходимо реализовать программу, считающую количество слов в файле и выводящую результат на экран. Путь к файлу задается первым аргументом командной строки (args\[0\]).
+```text
+В текстах программ на Java могут использоваться многострочные (/* ... */) и однострочные (// ...) комментарии. Реализовать программу, вырезающую из файла с исходным текстом все комментарии и печатающую результат на экран. Путь к файлу задается первым аргументом командной строки (args[0]).
 
 Пример:
 
-\[in\]
-Забыл   Панкрат  Кондратьевич домкрат,
-А без домкрату ну  не  поднять на тракте трактор.
+[in]
+/*
+ * My first ever program in Java!
+ */
+class Hello { // class body starts here 
+  
+  /* main method */
+  public static void main(String[] args/* we put command line arguments here*/) {
+    // this line prints my first greeting to the screen
+    System.out.println("Hi!"); // :)
+  }
+} // the end
+// to be continued...
 
-\[out\]
-13
+[out]
 
+class Hello {  
+  
+  
+  public static void main(String[] args) {
+    
+    System.out.println("Hi!"); 
+  }
+} 
+```
