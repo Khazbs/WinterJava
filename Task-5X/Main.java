@@ -29,8 +29,8 @@ public class Main {
             }
         }
         int totalCallTime = 0;
-        for (String login : operatorCallTimes.keySet())
-            totalCallTime += operatorCallTimes.get(login).getSum();
+        for (Sum callTime : operatorCallTimes.values())
+            totalCallTime += callTime.getSum();
         System.out.println(totalCallTime / operatorCallTimes.size());
     }
 }
