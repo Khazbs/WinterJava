@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         Showtime movie = new Showtime("Bohemian Rhapsody", 20, 40);
-        System.out.println(movie.getFreeSeats());
-        System.out.println(movie.getFreeSeats().contains(new Seat(2, 5)));  // Should be true, but is false
         Booker vasily = new Booker("Vasily");
         Booker ivan = new Booker("Ivan");
         Booker maria = new Booker("Maria");

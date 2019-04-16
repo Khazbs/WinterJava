@@ -16,7 +16,12 @@ public class Seat {
     public String toString() {
         return "Row: " + this.row + " Seat: " + this.seat;
     }
-    public boolean equals(Seat other) {
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (!(obj instanceof Seat))
+            return false;
+        Seat other = (Seat) obj;
         return this.row == other.row && this.seat == other.seat;
     }
     public int hashCode() {
