@@ -10,7 +10,6 @@ public class Showtime {
         for (int i = 0; i < rows; ++i)
             for (int j = 0; j < seats; ++j)
                 this.freeSeats.add(new Seat(i, j));
-        System.out.println(this.freeSeats);
     }
     synchronized public Set<Seat> getFreeSeats() {
         return this.freeSeats;

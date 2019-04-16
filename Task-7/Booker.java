@@ -19,11 +19,12 @@ public class Booker implements Runnable{
     public void run() {
         for (Seat seat : wouldBookSeats) {
             synchronized (lock) {
-                if (this.showtime.getFreeSeats().contains(seat))
+                if (this.showtime.getFreeSeats().contains(seat)) {
                     if (this.showtime.bookSeat(seat))
-                        System.out.println(bookerName + " has booked Seat(" + seat + ") for " + this.showtime);
+                        System.out.println(this.bookerName + " has booked Seat(" + seat + ") for " + this.showtime);
                     else
-                        System.out.println(bookerName + " has failed to book Seat(" + seat + ") for " + this.showtime);
+                        System.out.println(this.bookerName + " has failed to book Seat(" + seat + ") for " + this.showtime);
+                }
             }
         }
     }

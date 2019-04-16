@@ -1,8 +1,8 @@
-import java.util.HashSet;
-
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Showtime movie = new Showtime("Bohemian Rhapsody", 20, 40);
+        System.out.println(movie.getFreeSeats());
+        System.out.println(movie.getFreeSeats().contains(new Seat(2, 5)));  // Should be true, but is false
         Booker vasily = new Booker("Vasily");
         Booker ivan = new Booker("Ivan");
         Booker maria = new Booker("Maria");
@@ -39,9 +39,17 @@ public class Main {
                 new Seat(8, 10),
                 new Seat(8, 11),
         });
-        new Thread(vasily).start();
-        new Thread(ivan).start();
-        new Thread(maria).start();
-        new Thread(anna).start();
+        Thread t1 = new Thread(vasily);
+        Thread t2 = new Thread(ivan);
+        Thread t3 = new Thread(maria);
+        Thread t4 = new Thread(anna);
+        t1.start();
+        t2.start();
+        t3.start();
+        t4.start();
+        t1.join();
+        t2.join();
+        t3.join();
+        t4.join();
     }
 }
