@@ -1,10 +1,10 @@
 public class WatchCounter implements Comparable<WatchCounter> {
     private int count;
-    private String movieId;
-    public WatchCounter(String movieId) {
+    private int movieId;
+    public WatchCounter(int movieId) {
         this(movieId, 1);
     }
-    public WatchCounter(String movieId, int count) {
+    public WatchCounter(int movieId, int count) {
         this.movieId = movieId;
         this.count = count;
     }
@@ -14,7 +14,7 @@ public class WatchCounter implements Comparable<WatchCounter> {
     public int getCount() {
         return this.count;
     }
-    public String getMovieId() {
+    public int getMovieId() {
         return this.movieId;
     }
     public String toString() {

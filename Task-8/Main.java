@@ -31,7 +31,7 @@ public class Main {
                         if (timesWatched.containsKey(movieId))
                             timesWatched.get(movieId).increment();
                         else
-                            timesWatched.put(movieId, new WatchCounter(movie));
+                            timesWatched.put(movieId, new WatchCounter(movieId));
                     }
                 }
             }
