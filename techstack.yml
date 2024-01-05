@@ -1,7 +1,8 @@
 repo_name: Khazbs/WinterJava
 report_id: 8235fdf9be31521dca0bb46b78edd3ce
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T15:07:22+00:00'
+timestamp: '2024-01-05T08:53:16+00:00'
 requested_by: Khazbs
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/Khazbs/WinterJava
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,4 +27,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Khazbs/WinterJava
   detection_source: Repo Metadata
